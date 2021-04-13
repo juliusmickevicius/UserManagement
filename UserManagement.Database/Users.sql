@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Users]
+(
+	[Id] NVARCHAR(7) NOT NULL PRIMARY KEY,
+	[Name] NVARCHAR(40) NOT NULL,
+	[MobileNumber] NVARCHAR(15) NOT NULL,
+	[Duties] NVARCHAR(15) NOT NULL
+)
